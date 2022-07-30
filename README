@@ -1,0 +1,19 @@
+This library creates an XDG-compliant application menu
+using the garcon library.
+
+to build it, you will need:
+ - GLib
+ - libgarcon
+ - qmake
+
+with these dependencies compiled, run:
+
+```
+qmake
+make
+sh install.sh
+```
+to build and install the library. After installing the
+library, you can test it by going into the "test" folder
+and running ```qmake && make``` to compile the test program,
+and ```./test``` to run in.
